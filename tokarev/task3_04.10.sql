@@ -6,3 +6,4 @@ JOIN Suppliers USING(SupplierID)
 GROUP BY Products.SupplierID
 ORDER BY total_products DESC
 LIMIT 3
+
